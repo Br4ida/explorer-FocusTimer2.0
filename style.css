@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg-color-icons: #e1e1e6;
+}
+
+body {
+  font-size: 1.6rem;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+#app {
+  display: flex;
+  width: 82rem;
+  height: 34rem;
+  justify-content: center;
+  align-items: center;
+  gap: 19.2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left #controls {
+  display: flex;
+  gap: 4rem;
+  width: 31.2rem;
+  margin-top: 2.4rem;
+}
+
+#controls button {
+  background: none;
+  border: none;
+  font-size: 4.8rem;
+  cursor: pointer;
+}
+
+#timer {
+  font-size: 12.6rem;
+}
+
+.right #controls {
+  display: grid;
+  grid-template-columns: 14rem 14rem;
+  gap: 3.2rem;
+}
+
+.right #controls button {
+  width: 14rem;
+  height: 16rem;
+  background-color: var(--bg-color-icons);
+  border-radius: 2.4rem;
+}
