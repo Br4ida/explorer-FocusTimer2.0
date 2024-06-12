@@ -18,19 +18,51 @@
           <span id="seconds">00</span>
         </section>
 
-        <section id="controls" class="flex">
-          <button id="start" class="ph ph-play-circle"></button>
-          <button id="stop" class="ph ph-stop-circle"></button>
-          <button id="plus" class="ph ph-plus-circle"></button>
-          <button id="minus" class="ph ph-minus-circle"></button>
+        <section id="controlsLeft" class="flex">
+          <button
+            id="start"
+            class="ph ph-play-circle"
+            data-action="play"
+          ></button>
+          <button
+            id="stop"
+            class="ph ph-stop-circle"
+            data-action="stop"
+          ></button>
+          <button
+            id="plus"
+            class="ph ph-plus-circle"
+            data-action="addTime"
+          ></button>
+          <button
+            id="minus"
+            class="ph ph-minus-circle"
+            data-action="minusTime"
+          ></button>
         </section>
       </div>
       <div class="right">
-        <section id="controls" class="flex">
-          <button id="start" class="ph ph-tree"></button>
-          <button id="stop" class="ph ph-cloud-rain"></button>
-          <button id="plus" class="ph ph-storefront"></button>
-          <button id="minus" class="ph ph-flame"></button>
+        <section id="sounds" class="flex">
+          <button
+            id="tree"
+            class="ph ph-tree"
+            data-action="toggleSound"
+          ></button>
+          <button
+            id="rain"
+            class="ph ph-cloud-rain"
+            data-action="toggleSound"
+          ></button>
+          <button
+            id="storefront"
+            class="ph ph-storefront"
+            data-action="toggleSound"
+          ></button>
+          <button
+            id="flame"
+            class="ph ph-flame"
+            data-action="toggleSound"
+          ></button>
         </section>
       </div>
     </div>
