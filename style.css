@@ -70,3 +70,7 @@ button {
 #sounds button.on {
   background-color: var(--bg-color-icons-on);
 }
+
+.hidden {
+  display: none;
+}

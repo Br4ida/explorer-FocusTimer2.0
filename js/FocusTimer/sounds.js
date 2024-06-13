@@ -4,3 +4,8 @@ export const Sounds = {
   storefront: new Audio("./assets/sounds/Cafeteria.wav"),
   flame: new Audio("./assets/sounds/Lareira.wav"),
 }
+
+Sounds.rain.loop = true;
+Sounds.tree.loop = true;
+Sounds.storefront.loop = true;
+Sounds.flame.loop = true;
